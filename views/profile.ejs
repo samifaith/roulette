@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+      <title>CASSINO LEDGER</title>
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+      <link rel="stylesheet" href="profile.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header text-center">
+          <h1><span class="fa fa-gamepad"></span> CASSINO LEDGER</h1>
+          <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <p>BANK BALANCE</p>
+          <p><span>$</span> <%=balance%></p>
+          <ol class="messages">
+            <% for(let i=0; i< ledger.length; i++) {%>
+              <li><%= ledger[i].didWin %></li>
+	          <% } %>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

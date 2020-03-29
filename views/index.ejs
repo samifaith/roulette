@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+    <title>2121 Roulette</title>
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display|Comic+Neue|DM+Serif+Display|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <header>
+      <div class="empty"><img src="img/dice.png" alt="dice"></div>
+      <h1>CASSINO 2121</h1>
+      <div class="login">
+        <p>Login or Signup:</p>
+        <a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a>
+        <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a>
+      </div>
+    </header>
+
+
+    <!-- Roulette logic  -->
+    <div class="hero">
+
+      <p id="marble">MARBLE LANDS ON</p>
+      <p id="resultColor"></p>
+      <p id="displayBalance">BALANCE</p>
+      <p id="balance">100000</p>
+      <div class="bid">
+        <input type="text" name="" value="" id="playerBet">
+      <select name="" id="dropdown">
+        <option value="Red">RED</option>
+        <!-- <option value="Green">Green</option> -->
+        <option value="Black">BLACK</option>
+        <option value="Green">00</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+        <option value="32">32</option>
+        <option value="33">33</option>
+        <option value="34">34</option>
+        <option value="35">35</option>
+        <option value="36">36</option>
+      </select>
+      <button id="submitBet" type="submit">SPIN</button>
+    </div>
+    </div>
+    <!-- End of Roulette logic -->
+
+
+    <script src="main.js"></script>
+
+</div>
+</body>
+</html>

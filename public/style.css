@@ -1,0 +1,73 @@
+body {
+  box-sizing: border-box;
+  font-size: 10px;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+  padding-bottom: 10px;
+}
+.empty, h1, .login{
+  width: 33.333%;
+  font-size: 1.5rem;
+  margin: 0;
+  color: white;
+}
+.login {
+  text-align: center;
+  margin-right: 50px;
+  color: white;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: .4rem;
+}
+.empty{
+  display: flex;
+  justify-content: center;
+}
+div img {
+  height: 100px;
+}
+.fa-user, .btn-default{
+  color: white;
+  padding-right: 5px;
+}
+
+.hero {
+  display: flex;
+  flex-flow: column;
+  /* justify-content: center; */
+  align-items: center;
+  border: 4px solid black;
+  border-radius: 10px;
+  margin: 100px 500px 0 500px;
+}
+
+#marble, #balance, #displayBalance, #resultColor  {
+  font-size: 4rem;
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: .3rem;
+  margin: 0;
+}
+
+#resultColor{
+  color: gold;
+}
+.bid {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+button, input, select {
+  margin: 10px;
+  font-size: 2rem;
+  border-radius: 10px;
+  font-family: 'Open Sans', serif;
+}
